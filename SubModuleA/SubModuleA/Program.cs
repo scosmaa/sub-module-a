@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MasterModulerSolution;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,8 @@ namespace SubModuleA
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Common.Test());
+            Console.ReadKey();
         }
     }
 }
