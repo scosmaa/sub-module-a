@@ -49,11 +49,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\MasterModulerSolution\MasterModulerSolution.csproj">
-      <Project>{18ae996c-41a4-4060-a85a-45bc604e4d90}</Project>
-      <Name>MasterModulerSolution</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
